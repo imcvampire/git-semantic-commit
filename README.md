@@ -29,7 +29,7 @@ See their commit history for examples of properly-formatted commit messages.
 
 1. Clone this repo, prefferably in your $HOME directory.
 ```
-git clone https://github.com/russiann/git-semantic-commits ~/.git-semantic-commits
+git clone git@github.com:imcvampire/git-semantic-commit.git ~/.git-semantic-commits
 ```
 
 2. Add the folder to your $PATH.
