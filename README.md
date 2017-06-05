@@ -1,5 +1,7 @@
 # Git Semantic Commit Messages
 
+This repo is a fork of original repo https://github.com/russiann/git-semantic-commits
+
 This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html).
 See their commit history for examples of properly-formatted commit messages.
 
