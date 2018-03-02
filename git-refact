@@ -5,9 +5,9 @@ if [ -z "$1" ]
   else
     if [ -z "$2" ]
       then
-        git commit -am "refact: $1"
+        git commit -am "refactor: $1"
       else
         echo "refactor($1): $2"
-        git commit -am "refact($1): $2"
+        git commit -am "refactor($1): $2"
     fi
 fi
