@@ -1,11 +1,11 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'localize: ' -e
+    git commit -am 'localize(*): ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "localize: $1"
+        git commit -am "localize(*): $1"
       else
         echo "localize($1): $2"
         git commit -am "localize($1): $2"

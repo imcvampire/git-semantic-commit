@@ -1,11 +1,11 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'docs: ' -e
+    git commit -am 'docs(*): ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "docs: $1"
+        git commit -am "docs(*): $1"
       else
         echo "docs($1): $2"
         git commit -am "docs($1): $2"

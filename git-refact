@@ -1,11 +1,11 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'refact: ' -e
+    git commit -am 'refact(*): ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "refactor: $1"
+        git commit -am "refactor(*): $1"
       else
         echo "refactor($1): $2"
         git commit -am "refactor($1): $2"
