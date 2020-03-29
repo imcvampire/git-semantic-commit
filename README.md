@@ -25,6 +25,8 @@ See their commit history for examples of properly-formatted commit messages.
 | `git test <scope> <message>`      | test(scope): message            |
 | `git localize <message>`          | localize: message               |
 | `git localize <scope> <message>`  | localize(scope): message        |
+| `git build <message>`             | build: message                  |
+| `git build <scope> <message>`     | build(scope): message           |
 
 
 ## Manual Installation:
