@@ -1,7 +1,6 @@
 # Git Semantic Commit Messages
 
-This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html).
-See their commit history for examples of properly-formatted commit messages.
+This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html). See their commit history for examples of properly-formatted commit messages.
 
 ## Commands
 
@@ -27,35 +26,28 @@ See their commit history for examples of properly-formatted commit messages.
 | `git build <scope> <message>`     | build(scope): message           |
 
 
-## Manual Installation:
+## Install
 
-1. First, clone this repo. Preferably in your $HOME directory:
+First, clone this repo. Preferably in your $HOME directory:
 
 ```sh
 git clone git@github.com:imcvampire/git-semantic-commit.git ~/.git-semantic-commits
 ```
 
-2. Add the folder to your `$PATH`.
+Then add the folder to your `$PATH` in `~/.bashrc` or `~/.zshrc`, respectively:
 
-if using Bash, open ```~/.bashrc``` with your favourite editor and add,
-  
-  ```sh
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
-  ```
-  
-Uf using Zsh, open ```~/.zshrc``` with your favourite editor and add,
-  ```
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
-  ```
+```sh
+export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
+```
 
-3. Save the file and source the changes
+Save and and source the changes:
 
 ```sh
 source ~/.bashrc  # if using Bash
 source ~/.zshrc # if using Zsh
 ``````
 
-4. Done!
+That's it! Enjoy your workflow and consistency improvements 🎉
 
 ---
 
