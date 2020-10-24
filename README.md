@@ -1,13 +1,10 @@
 # Git Semantic Commit Messages
 
-This repo is a fork of original repo https://github.com/russiann/git-semantic-commits
+This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html). See their commit history for examples of properly-formatted commit messages.
 
-This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html).
-See their commit history for examples of properly-formatted commit messages.
+## Commands
 
-### Commands:
-
-| Command                           | Return                          |
+| Command                           | Returns                         |
 | ---------------------             | ------------------------------- |
 | `git feat <message>`              | feat: message                   |
 | `git feat <scope> <message>`      | feat(scope): message            |
@@ -29,23 +26,29 @@ See their commit history for examples of properly-formatted commit messages.
 | `git build <scope> <message>`     | build(scope): message           |
 
 
-## Manual Installation:
+## Install
 
-1. Clone this repo, prefferably in your $HOME directory.
-```
+First, clone this repo. Preferably in your $HOME directory:
+
+```sh
 git clone git@github.com:imcvampire/git-semantic-commit.git ~/.git-semantic-commits
 ```
 
-2. Add the folder to your $PATH.
-  * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line:
-  ```
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
-  ```
-  * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line:
-  ```
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
-  ```
+Then add the folder to your `$PATH` in `~/.bashrc` or `~/.zshrc`, respectively:
 
-3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
+```sh
+export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
+```
 
-4. Done!
+Save and and source the changes:
+
+```sh
+source ~/.bashrc  # if using Bash
+source ~/.zshrc # if using Zsh
+``````
+
+That's it! Enjoy your workflow and consistency improvements 🎉
+
+---
+
+This repo is a fork of the [original repo](https://github.com/russiann/git-semantic-commits).
