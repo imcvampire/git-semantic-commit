@@ -33,17 +33,17 @@ See their commit history for examples of properly-formatted commit messages.
 
 1. Clone this repo, prefferably in your $HOME directory.
 ```
-git clone git@github.com:imcvampire/git-semantic-commit.git ~/.git-semantic-commits
+git clone git@github.com:imcvampire/git-semantic-commit.git ~/git-semantic-commits
 ```
 
 2. Add the folder to your $PATH.
   * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line:
   ```
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
+  export PATH=$PATH:$HOME/git-semantic-commits:$PATH
   ```
   * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line:
   ```
-  export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
+  export PATH=$PATH:$HOME/git-semantic-commits:$PATH
   ```
 
 3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
