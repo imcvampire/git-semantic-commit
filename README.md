@@ -39,11 +39,11 @@ git clone git@github.com:imcvampire/git-semantic-commit.git ~/git-semantic-commi
 2. Add the folder to your $PATH.
   * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line:
   ```
-  export PATH=$PATH:$HOME/git-semantic-commits:$PATH
+  export PATH=$PATH:$HOME/git-semantic-commits
   ```
   * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line:
   ```
-  export PATH=$PATH:$HOME/git-semantic-commits:$PATH
+  export PATH=$PATH:$HOME/git-semantic-commits
   ```
 
 3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
