@@ -1,13 +1,12 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'style(*): ' -e
+    git commit -am 'style: ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "style(*): $1"
+        git commit -am "style: $1"
       else
-        echo "style($1): $2"
         git commit -am "style($1): $2"
     fi
 fi

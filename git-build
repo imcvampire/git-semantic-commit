@@ -1,13 +1,12 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'build(*): ' -e
+    git commit -am 'build: ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "build(*): $1"
+        git commit -am "build: $1"
       else
-        echo "chore($1): $2"
         git commit -am "build($1): $2"
     fi
 fi

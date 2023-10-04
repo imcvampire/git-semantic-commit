@@ -1,13 +1,12 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    git commit -am 'feat(*): ' -e
+    git commit -am 'feat: ' -e
   else
     if [ -z "$2" ]
       then
-        git commit -am "feat(*): $1"
+        git commit -am "feat: $1"
       else
-        echo "feat($1): $2"
         git commit -am "feat($1): $2"
     fi
 fi
