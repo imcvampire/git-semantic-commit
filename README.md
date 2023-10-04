@@ -1,6 +1,6 @@
 # Git Semantic Commit Messages
 
-This project is based on [Karma Git Commit Convention](http://karma-runner.github.io/1.0/dev/git-commit-msg.html). See their commit history for examples of properly-formatted commit messages.
+This project is based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). See their commit history for examples of properly formatted commit messages.
 
 ## Commands
 
@@ -20,8 +20,6 @@ This project is based on [Karma Git Commit Convention](http://karma-runner.githu
 | `git style <scope> <message>`     | style(scope): message           |
 | `git test <message>`              | test: message                   |
 | `git test <scope> <message>`      | test(scope): message            |
-| `git localize <message>`          | localize: message               |
-| `git localize <scope> <message>`  | localize(scope): message        |
 | `git build <message>`             | build: message                  |
 | `git build <scope> <message>`     | build(scope): message           |
 
@@ -40,7 +38,7 @@ Then add the folder to your `$PATH` in `~/.bashrc` or `~/.zshrc`, respectively:
 export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
 ```
 
-Save and and source the changes:
+Save and source the changes:
 
 ```sh
 source ~/.bashrc  # if using Bash
