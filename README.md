@@ -22,6 +22,8 @@ This project is based on [Conventional Commits](https://www.conventionalcommits.
 | `git test <scope> <message>`      | test(scope): message            |
 | `git build <message>`             | build: message                  |
 | `git build <scope> <message>`     | build(scope): message           |
+| `git perf <message>`             | perf: message                  |
+| `git perf <scope> <message>`     | perf(scope): message           |
 
 
 ## Install
