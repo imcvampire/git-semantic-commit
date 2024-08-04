@@ -1,5 +1,5 @@
 # !/bin/bash
-export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
+export PATH=$PATH:$HOME/.git-semantic-commits
 bashrc=$HOME"/.bashrc"
 zshrc=$HOME"/.zshrc"
 
@@ -8,7 +8,7 @@ packageDir=$(pwd)
 if [ -f "$bashrc" ]
 then
   echo "Installing on Bash"
-  dir="export PATH=$PATH:$HOME/.git-semantic-commits:$PATH"
+  dir="export PATH=$PATH:$HOME/.git-semantic-commits"
 
   echo "" >> $zshrc
   echo "#git-semantic-commits (delete this lines to 'uninstall' commands)" >> $bashrc
@@ -18,7 +18,7 @@ fi
 if [ -f "$zshrc" ]
 then
   echo "Installing on ZSH"
-  dir="export PATH=$PATH:$packageDir:$PATH"
+  dir="export PATH=$PATH:$packageDir"
 
   echo "" >> $zshrc
   echo "#git-semantic-commits (delete this lines to 'uninstall' commands)" >> $zshrc
