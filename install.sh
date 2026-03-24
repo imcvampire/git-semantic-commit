@@ -1,4 +1,13 @@
-# !/bin/bash
+#!/bin/sh
+
+if [ -z "${ZSH_VERSION:-}" ] && [ -z "${BASH_VERSION:-}" ]; then
+  if command -v zsh >/dev/null 2>&1; then
+    exec zsh "$0" "$@"
+  elif command -v bash >/dev/null 2>&1; then
+    exec bash "$0" "$@"
+  fi
+fi
+
 export PATH=$PATH:$HOME/.git-semantic-commits:$PATH
 bashrc=$HOME"/.bashrc"
 zshrc=$HOME"/.zshrc"
