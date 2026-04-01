@@ -14,8 +14,8 @@ This project is based on [Conventional Commits](https://www.conventionalcommits.
 | `git chore <scope> <message>`     | chore(scope): message           |
 | `git fix <message>`               | fix: message                    |
 | `git fix <scope> <message>`       | fix(scope): message             |
-| `git refactor <message>`          | refactor: message               |
-| `git refactor <scope> <message>`  | refactor(scope): message        |
+| `git refact <message>`            | refactor: message               |
+| `git refact <scope> <message>`    | refactor(scope): message        |
 | `git style <message>`             | style: message                  |
 | `git style <scope> <message>`     | style(scope): message           |
 | `git test <message>`              | test: message                   |
